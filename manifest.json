@@ -16,19 +16,17 @@
   },
   "page_action": {
     "default_popup": "popup/popup.html",
-    "default_icon": "icon.jpeg"
+    "default_icon": "popup/icon.png"
   },
   "content_scripts": [
     {
       "matches": [
         "<all_urls>"
       ],
-      "css": [
-        "notes.css"
-      ],
       "js": [
-        "notes.js"
-      ]
+        "content.js"
+      ],
+      "runs_at": "document_end"
     }
   ],
   "manifest_version": 2

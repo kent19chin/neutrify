@@ -23,5 +23,3 @@ chrome.tabs.query({
   });
 });
 
-
-
