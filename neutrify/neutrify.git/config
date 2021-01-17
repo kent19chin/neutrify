@@ -5,6 +5,6 @@
 	ignorecase = true
 	precomposeunicode = true
 [remote "origin"]
-	url = https://github.com/kent19chin/neutrify.git
+	url = ssh://git@github.com/kent19chin/neutrify.git
 	fetch = +refs/*:refs/*
 	mirror = true
